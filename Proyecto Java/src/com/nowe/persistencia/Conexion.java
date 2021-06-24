@@ -19,14 +19,14 @@ public class Conexion {
 	        Class.forName("com.microsoft.sqlserver.jdbc.SQLServerDriver"); 
 	        String stringConexion =  "jdbc:sqlserver://localhost:1433;" + 
 	                       "databaseName=CUENTAS_BANCOS;" + 
-	                       "user=agar;" +  
-	                        "password=P4t4t1t4;" +
+	                       "user=CAMBIAR;" +  
+	                        "password=CAMBIAR;" +
 	                      "encrypt=false;" +
 	                     "trustServerCertificate=false;" +
 	                      "loginTimeout=30;";
 	        //Obtenermos un objeto de tipo conexion
 	        miConexion = DriverManager.getConnection(stringConexion); //Obtenemos la conexion y le damos el string de conexion
-	        //System.out.println("Exito al abrir la conexion");                     //Obtenemos un objeto conexion que est· conectado a la BD
+	        //System.out.println("Exito al abrir la conexion");                     //Obtenemos un objeto conexion que est√° conectado a la BD
 	    }
 	    
 	    public void cerrarConexion() throws SQLException {
